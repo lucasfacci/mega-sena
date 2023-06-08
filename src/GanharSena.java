@@ -66,8 +66,8 @@ public class GanharSena {
 			qtdJogos++;
 		}
 
-		System.out.println("Números sorteados da Mega-Sena: " + numerosSena);
+		System.out.println("NÃºmeros sorteados da Mega-Sena: " + numerosSena);
 		System.out.println("Seu jogo: " + numerosJogo);
-		System.out.println("Quantidade de jogos necessários para acertar: " + qtdJogos);
+		System.out.println("Quantidade de jogos necessÃ¡rios para acertar: " + qtdJogos);
 	}
 }

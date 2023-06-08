@@ -27,7 +27,7 @@ public class JogoSena {
 			}
 		}
 
-		System.out.println("Números sorteados da Mega-Sena: " + numerosSena);
+		System.out.println("NÃºmeros sorteados da Mega-Sena: " + numerosSena);
 		System.out.println("Seu jogo: " + jogo(gerador, numerosJogo, igual));
 
 		for (int x = 0; x < 6; x++) {
@@ -39,12 +39,12 @@ public class JogoSena {
 		}
 
 		if (counter == 6) {
-			System.out.println("Parabéns, você ganhou na Mega-Sena!");
+			System.out.println("ParabÃ©ns, vocÃª ganhou na Mega-Sena!");
 		} else {
 			if (counter == 1) {
-				System.out.println("Você acertou " + counter + " número.");
+				System.out.println("VocÃª acertou " + counter + " nÃºmero.");
 			} else {
-				System.out.println("Você acertou " + counter + " números.");
+				System.out.println("VocÃª acertou " + counter + " nÃºmeros.");
 			}
 		}
 	}
